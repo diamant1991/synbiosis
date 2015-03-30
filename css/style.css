@@ -103,6 +103,7 @@ body{
 	width: 980px;
 	margin: auto;
 	min-height: 100%;
+	padding-bottom: 100px;
 }
 .bid{
 	background-color: #d1d2dd;
@@ -129,11 +130,10 @@ body{
 	background: -ms-linear-gradient(top,  #b60c11 0%,#ae0c11 35%,#a60b10 64%,#9f0b0f 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #b60c11 0%,#ae0c11 35%,#a60b10 64%,#9f0b0f 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b60c11', endColorstr='#9f0b0f',GradientType=0 ); /* IE6-9 */
-
 	color: #fff;
 	float: left;
 	margin-right: 18px;
-	padding-top: 7px;
+	padding-top: 8px;
 }
 	.bid .bottom-bid a:last-child{
 		margin-right: 0;
@@ -232,3 +232,117 @@ footer{
 	font-size: 14px;
 	border-top: 1px solid #5f6276;
 }
+.call-me-block{
+	float: left;
+	position: relative;
+}
+.post{
+	display: block;
+	position: absolute;
+	width: 38px;
+	height: 29px;
+	background: url(../images/call.png);
+	right: 26px;
+	top: 3px;
+}
+.call-me{
+	padding-right: 25px;
+}
+.news{
+	margin-top: 25px;
+}
+.news h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #2d304b;
+	font-family: Calibri,sans-serif;
+}
+.news-img{
+	float: left;
+	width: 263px;
+	height: 161px;
+}
+.news-block{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d7d7d7;
+	margin-top: 15px;
+}
+.news-desc{
+	float: left;
+	margin-left: 20px;
+	width: 690px;
+	font-family: Calibri,sans-serif;
+	position: relative;
+	height: 161px;
+}
+.date{
+	font-size: 14px;
+	color: #898989;
+}
+.news-desc h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #2d304b;
+	padding: 12px 0;
+}
+.news-desc p{
+	font-size: 14px;
+	color: #000;
+	line-height: 1.3;
+}
+.more{
+	display: inline-block;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	padding-right: 10px;
+	background: url(../images/more.png)no-repeat 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+
+}
+	.more span{
+		text-decoration: underline;
+	}
+		.more:hover>span{
+			text-decoration: none;
+		}
+
+.pagination{
+	margin-top: 15px;
+	  position: relative;
+	  float: right;
+	  right: 50%;
+}
+.pagination ul{
+	position: relative;
+	 float: left;
+	 left: 50%;
+}
+
+.pagination ul li{
+	float: left;
+	margin-right: 15px;
+}
+	.pagination ul li a{
+		text-decoration: none;
+		text-align: center;
+		display: block;
+		width: 34px;
+		height: 34px;
+		border:1px solid #d7d7d7;
+		font-size: 14px;
+		color: #2d304b;
+		font-family: Calibri,sans-serif;
+		padding-top: 9px;
+		background-color: transparent;
+		-webkit-transition: 0.15s all ease-in-out;
+		-o-transition: 0.15s all ease-in-out;
+		transition: 0.15s all ease-in-out;
+	}
+		.pagination ul li a:hover,.pagination ul li a.active{
+			background-color: #ae0b10;
+			color: #fff;
+		}
+	
