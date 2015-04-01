@@ -47,11 +47,11 @@
 		<div class="bid">
 			<div class="top-bid clearfix">
 				<div class="call-me-block clearfix">
-					<a href="#" class="call-me">перезвонить мне</a>
+					<a class="call-me">перезвонить мне</a>
 					<span class="post"></span>
 				</div>
 				<p>+7 {495} 990 90 90</p>
-				<a href="#" class="leave-bid">оставить заявку</a>
+				<a  class="leave-bid">оставить заявку</a>
 			</div>
 			<div class="bottom-bid clearfix">
 				<a href="#" class="red-link">купить</a>
@@ -212,6 +212,94 @@
 		</div>
 	</footer>
 
+<div class="form-mask"></div>
+<div class="modal" id="application">
+	<div class="modal-block">
+		<h5>заявка</h5>
+		<span class="closed"></span>
+		<form action="">
+			<fieldset>
+				<input type="text" placeholder="Имя"> <br>
+				<input type="text" placeholder="Телефон" class="telephone"> <br>
+				<input type="text" placeholder="E-mail"> <br>
+				<div class="select aim">
+					<a href="javascript:void(0);" class="slct">Цель заявки</a>
+					<ul class="drop">
+						<li><a>Цель 2</a></li>
+						<li><a>Цель 3</a></li>
+						<li><a>Цель 4</a></li>
+						<li><a>Цель 5</a></li>
+					</ul>
+					<input type="hidden" id="select">
+				</div>
+				<input type="text" placeholder="Адрес"> <br>
+				<textarea placeholder="Интересующая информация"></textarea>
+				<div class="code">
+					<div class="code-block">
+						<img src="images/code.jpg" alt="">
+					</div>
+					<input type="text">
+				</div>
+				<input type="submit" value="оставить заявку" class="submit">
+			</fieldset>
+		</form>
+	</div>
+</div>
+<div class="modal" id="call-me">
+	<div class="modal-block">
+		<h5>Оставьте свой номер телефона <br>и мы вам перезвоним</h5>
+		<span class="closed"></span>
+		<form action="">
+			<fieldset>
+				<input type="text" placeholder="Имя"> <br>
+				<input type="text" placeholder="Телефон" class="telephone"> <br>
+				<input type="text" placeholder="E-mail"> <br>
+				<input type="text" placeholder="Интересующая информация"> <br>
+				<div class="time clearfix">
+					<span>Удобное время с</span>
+					<div class="select aim slct-time">
+						<a href="javascript:void(0);" class="slct"></a>
+						<ul class="drop">
+							<li><a>9:00</a></li>
+							<li><a>10:00</a></li>
+							<li><a>11:00</a></li>
+							<li><a>12:00</a></li>
+						</ul>
+						<input type="hidden" id="select">
+					</div>
+					<span style="margin-left:15px;">до</span>
+					<div class="select aim slct-time right-pos">
+						<a href="javascript:void(0);" class="slct"></a>
+						<ul class="drop">
+							<li><a>20:00</a></li>
+							<li><a>21:00</a></li>
+							<li><a>22:00</a></li>
+							<li><a>23:00</a></li>
+						</ul>
+						<input type="hidden" id="select">
+					</div>
+				</div>
+
+				<div class="code">
+					<div class="code-block">
+						<img src="images/code.jpg" alt="">
+					</div>
+					<input type="text">
+				</div>
+				<input type="submit" value="оставить заявку" class="submit">
+			</fieldset>
+		</form>
+	</div>
+</div>
+
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ <script src="js/jquery.maskedinput.js"></script>
+ <script src="js/dropdown.js"></script>
+ <script src="js/modal.js"></script>
+ <script type="text/javascript">
+    jQuery(function($){
+        $(".telephone").mask("+7 (999) 999-9999");
+    });
+ </script>
 </body>
 </html>
