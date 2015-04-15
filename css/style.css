@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/Calibri.eot');
+    src: url('../fonts/Calibri.eot') format('embedded-opentype'),
+         url('../fonts/Calibri.woff2') format('woff2'),
+         url('../fonts/Calibri.woff') format('woff'),
+         url('../fonts/Calibri.ttf') format('truetype'),
+         url('../fonts/Calibri.svg#Calibri') format('svg');
+}
+@font-face {
     font-family: 'Century Gotic';
     src: url('../fonts/Century.eot');
     src: url('../fonts/Century.eot') format('embedded-opentype'),
@@ -137,7 +146,7 @@ body{
 	text-decoration: none;
 	text-transform:uppercase;
 	font-size: 18px;
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 	text-align: center;
 	background: #b60c11; /* Old browsers */
 	background: -moz-linear-gradient(top,  #b60c11 0%, #ae0c11 35%, #a60b10 64%, #9f0b0f 100%); /* FF3.6+ */
@@ -171,7 +180,7 @@ body{
 	cursor: pointer;
 }
 .top-bid p{
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 	font-weight: bold;
 	font-size: 30px;
 	color: #2d304b;
@@ -181,7 +190,7 @@ body{
 }
 .contacts{
 	margin-top: 20px;
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 }
 	.contacts h3{
 		text-transform: uppercase;
@@ -283,7 +292,7 @@ footer{
 	text-transform: uppercase;
 	font-size: 18px;
 	color: #2d304b;
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 }
 .news-img{
 	float: left;
@@ -299,7 +308,7 @@ footer{
 	float: left;
 	margin-left: 20px;
 	width: 690px;
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 	position: relative;
 	height: 161px;
 }
@@ -362,7 +371,7 @@ footer{
 		border:1px solid #d7d7d7;
 		font-size: 14px;
 		color: #2d304b;
-		font-family: Calibri,sans-serif;
+		font-family: 'Calibri';
 		padding-top: 9px;
 		background-color: transparent;
 		-webkit-transition: 0.15s all ease-in-out;
@@ -383,7 +392,7 @@ footer{
 	float: left;
 }
 .sidebar ul{
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 	padding-left: 21px;
 }
 	.sidebar ul li{
@@ -415,7 +424,7 @@ footer{
 .company-text{
 	width: 725px;
 	float: right;
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 	font-size: 14px;
 }
 	.company-text h3{
@@ -562,7 +571,7 @@ footer{
 	background-color: #2d304b;
 	color: #fff;
 	font-size: 14px;
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 	text-transform: uppercase;
 	padding-top: 8px;
 	margin-top: 25px;
@@ -584,10 +593,10 @@ footer{
 	padding: 6px 10px;
 	padding-bottom: 20px;
 	font-size: 14px;
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 }
 .select{
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 }
 /*	=	Select */
 .slct {
@@ -708,7 +717,7 @@ footer{
 	.object-content header{
 		height: 35px;
 		background-color: #2d304b;
-		font-family: Calibri,sans-serif;
+		font-family: 'Calibri';
 		font-size: 14px;
 		position: relative;
 	}
@@ -743,7 +752,7 @@ footer{
 			color: #2d304b;
 		}
 .catalog{
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 }
 .catalog-img{
 	width: 256px;
@@ -863,7 +872,7 @@ footer{
 		text-transform: uppercase;
 		color: #fff;
 		font-size: 24px;
-		font-family: Calibri,sans-serif;
+		font-family: 'Calibri';
 	}
 .buy-icon, .sale-icon,.pass-icon,.take-icon{
 	margin-top: 20px;
@@ -877,12 +886,12 @@ footer{
 	width: 230px;
 }
 .main-content{
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 	margin-top: 35px;
 }
 .main-content h4{
 	font-size: 20px;
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 	text-transform: uppercase;
 	color: #2d304b;
 	font-weight: bold;
@@ -993,7 +1002,7 @@ footer{
 	  left: 20%;
 	  top: 20%;
 	  width: 335px;
-	  font-family: Calibri,sans-serif;
+	  font-family: 'Calibri';
 	  font-size: 14px;
 	  display: none;
 }
@@ -1016,7 +1025,7 @@ footer{
 	.modal-block textarea{
 		resize:none;
 		margin-top: 15px;
-		font-family: Calibri,sans-serif;
+		font-family: 'Calibri';
 		font-size: 14px;
 		width: 100%;
 		border: 1px solid #d7d7d7;
@@ -1046,7 +1055,7 @@ footer{
 	height: 30px !important;
 	color: #fff;
 	font-size: 14px;
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 	text-transform: uppercase;
 	background-color: #2d304b;
 	cursor: pointer;
@@ -1122,5 +1131,5 @@ footer{
 	background-color: #fff;
 	padding-left: 7px;
 	padding-top: 5px;
-	font-family: Calibri,sans-serif;
+	font-family: 'Calibri';
 }
