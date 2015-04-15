@@ -234,7 +234,7 @@
 								<p><span>Метро:</span> Шаболовская</p>
 								<p><span>Адрес:</span> Мытная ул. д.7 стр.1</p>
 								<p><span>Тип:</span> Комплекс</p>
-								<a href="#" class="choice">оставить заявку</a>
+								<a class="choice" id="click-modal-1">оставить заявку</a>
 							</div>
 						</div>
 					</div>
@@ -253,7 +253,7 @@
 								<p><span>Метро:</span> Шаболовская</p>
 								<p><span>Адрес:</span> Мытная ул. д.7 стр.1</p>
 								<p><span>Тип:</span> Комплекс</p>
-								<a href="#" class="choice">оставить заявку</a>
+								<a class="choice" id="click-modal-2">оставить заявку</a>
 							</div>
 						</div>
 					</div>
@@ -394,6 +394,71 @@
 
 <div class="form-mask"></div>
 <div class="modal" id="application">
+	<div class="modal-block">
+		<h5>заявка</h5>
+		<span class="closed"></span>
+		<form action="">
+			<fieldset>
+				<input type="text" placeholder="Имя"> <br>
+				<input type="text" placeholder="Телефон" class="telephone"> <br>
+				<input type="text" placeholder="E-mail"> <br>
+				<div class="select aim">
+					<a href="javascript:void(0);" class="slct">Цель заявки</a>
+					<ul class="drop">
+						<li><a>Цель 2</a></li>
+						<li><a>Цель 3</a></li>
+						<li><a>Цель 4</a></li>
+						<li><a>Цель 5</a></li>
+					</ul>
+					<input type="hidden" id="select">
+				</div>
+				<input type="text" placeholder="Адрес"> <br>
+				<textarea placeholder="Интересующая информация"></textarea>
+				<div class="code">
+					<div class="code-block">
+						<img src="images/code.jpg" alt="">
+					</div>
+					<input type="text">
+				</div>
+				<input type="submit" value="оставить заявку" class="submit">
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+<div class="modal" id="modal-1">
+	<div class="modal-block">
+		<h5>заявка</h5>
+		<span class="closed"></span>
+		<form action="">
+			<fieldset>
+				<input type="text" placeholder="Имя"> <br>
+				<input type="text" placeholder="Телефон" class="telephone"> <br>
+				<input type="text" placeholder="E-mail"> <br>
+				<div class="select aim">
+					<a href="javascript:void(0);" class="slct">Цель заявки</a>
+					<ul class="drop">
+						<li><a>Цель 2</a></li>
+						<li><a>Цель 3</a></li>
+						<li><a>Цель 4</a></li>
+						<li><a>Цель 5</a></li>
+					</ul>
+					<input type="hidden" id="select">
+				</div>
+				<input type="text" placeholder="Адрес"> <br>
+				<textarea placeholder="Интересующая информация"></textarea>
+				<div class="code">
+					<div class="code-block">
+						<img src="images/code.jpg" alt="">
+					</div>
+					<input type="text">
+				</div>
+				<input type="submit" value="оставить заявку" class="submit">
+			</fieldset>
+		</form>
+	</div>
+</div>
+<div class="modal" id="modal-2">
 	<div class="modal-block">
 		<h5>заявка</h5>
 		<span class="closed"></span>

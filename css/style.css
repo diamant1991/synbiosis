@@ -781,6 +781,7 @@ footer{
 		-webkit-transition: 0.15s all ease-in-out;
 		-o-transition: 0.15s all ease-in-out;
 		transition: 0.15s all ease-in-out;
+		cursor: pointer;
 	}
 		.cat-right .choice:hover,.request:hover{
 			background-color: #d1d2dd;
@@ -849,14 +850,7 @@ footer{
 	margin-right: 20px;
 	text-align: center;
 	padding-top: 20px;
-	background: #b60c11; /* Old browsers */
-	background: -moz-linear-gradient(top,  #b60c11 0%, #ad0b10 35%, #a50b0f 67%, #9e0b0f 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b60c11), color-stop(35%,#ad0b10), color-stop(67%,#a50b0f), color-stop(100%,#9e0b0f)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #b60c11 0%,#ad0b10 35%,#a50b0f 67%,#9e0b0f 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #b60c11 0%,#ad0b10 35%,#a50b0f 67%,#9e0b0f 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #b60c11 0%,#ad0b10 35%,#a50b0f 67%,#9e0b0f 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #b60c11 0%,#ad0b10 35%,#a50b0f 67%,#9e0b0f 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b60c11', endColorstr='#9e0b0f',GradientType=0 ); /* IE6-9 */
+	background: url(../images/red-bg.jpg)no-repeat;
 
 }
 	.variant .variant-block:last-child{
@@ -1001,6 +995,7 @@ footer{
 	  width: 335px;
 	  font-family: Calibri,sans-serif;
 	  font-size: 14px;
+	  display: none;
 }
 .modal-block{
 	width: 285px;

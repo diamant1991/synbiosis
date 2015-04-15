@@ -23,11 +23,34 @@ $(document).ready(function() {
 	        $('#application').attr({'visible':'false'})
 	  	}
 	})
-
+	$('#click-modal-1').click(function(){
+   		if($('#modal-1').attr('visible')!='true'){
+	   		$('.form-mask').fadeIn(400);
+	        $('#modal-1').fadeIn(400);
+	        $('#modal-1').attr({'visible':'true'})
+	  	}
+	  	else{
+   			$('.form-mask').fadeOut(400);
+        	$('#modal-1').fadeOut(400);
+	        $('#modal-1').attr({'visible':'false'})
+	  	}
+	})
+	$('#click-modal-2').click(function(){
+   		if($('#modal-2').attr('visible')!='true'){
+	   		$('.form-mask').fadeIn(400);
+	        $('#modal-2').fadeIn(400);
+	        $('#modal-2').attr({'visible':'true'})
+	  	}
+	  	else{
+   			$('.form-mask').fadeOut(400);
+        	$('#modal-2').fadeOut(400);
+	        $('#modal-2').attr({'visible':'false'})
+	  	}
+	})
  $('.form-mask, .closed').click(function(){
    		$('.form-mask').fadeOut(400)
-        $('#call-me,#application').fadeOut(400)
-        $('#call-me,#application').attr({'visible':'false'})
+        $('#call-me,#application,.modal').fadeOut(400)
+        $('#call-me,#application,.modal').attr({'visible':'false'})
 	})
 });
 
