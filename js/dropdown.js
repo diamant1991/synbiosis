@@ -8,8 +8,6 @@ $('.slct').click(function(){
 		$(this).addClass('active');
 
 		$('.drop').find('li').click(function(){
-
-
 			var selectResult = $(this).html();
 
 			$(this).parent().parent().find('input').val(selectResult);
