@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.call-me-block').click(function(){
+	$('.call-me').click(function(){
    		if($('#call-me').attr('visible')!='true'){
 	   		$('.form-mask').fadeIn(400);
 	        $('#call-me').fadeIn(400);

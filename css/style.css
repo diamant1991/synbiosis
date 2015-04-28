@@ -139,7 +139,7 @@ body{
 .bottom-bid{
 	margin-top: 25px;
 }
-.bid a,.red-link{
+.bid .call-me,.red-link,.bid .leave-bid{
 	display: block;
 	width: 230px;
 	height: 35px;
@@ -164,7 +164,7 @@ body{
 	.bid .bottom-bid a:last-child{
 		margin-right: 0;
 	}
-	.red-link:hover,.call-me-block:hover>.call-me, .leave-bid:hover{
+	.red-link:hover, .leave-bid:hover,.call-me:hover,.post:hover{
 		background: #3f425a; /* Old browsers */
 		background: -moz-linear-gradient(top,  #3f425a 0%, #393c55 30%, #32354f 63%, #2f324c 100%); /* FF3.6+ */
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f425a), color-stop(30%,#393c55), color-stop(63%,#32354f), color-stop(100%,#2f324c)); /* Chrome,Safari4+ */
@@ -179,13 +179,17 @@ body{
 	margin-right: 0 !important;
 	cursor: pointer;
 }
+
+.leave-bid-main{
+	margin-right: 3px !important;
+}
 .top-bid p{
 	font-family: 'Calibri';
 	font-weight: bold;
 	font-size: 30px;
 	color: #2d304b;
 	position: relative;
-	left: 122px;
+	left: 145px;
 	float: left;
 }
 .contacts{
@@ -272,18 +276,34 @@ footer{
 .call-me-block{
 	float: left;
 	position: relative;
+	width: 230px;
 }
 .post{
 	display: block;
 	position: absolute;
-	width: 38px;
-	height: 29px;
-	background: url(../images/call.png);
-	right: 26px;
-	top: 3px;
+	width: 46px;
+	height: 35px;
+	background: #b60c11; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b60c11 0%, #ae0c11 35%, #a60b10 64%, #9f0b0f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b60c11), color-stop(35%,#ae0c11), color-stop(64%,#a60b10), color-stop(100%,#9f0b0f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b60c11 0%,#ae0c11 35%,#a60b10 64%,#9f0b0f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b60c11 0%,#ae0c11 35%,#a60b10 64%,#9f0b0f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b60c11 0%,#ae0c11 35%,#a60b10 64%,#9f0b0f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #b60c11 0%,#ae0c11 35%,#a60b10 64%,#9f0b0f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b60c11', endColorstr='#9f0b0f',GradientType=0 ); /* IE6-9 */
+	right: 0px;
 }
+	.post>span{
+		display: block;
+		width: 45px;
+		height: 35px;
+		background: url(../images/call.png)no-repeat;
+		background-position: 0 3px;
+	}
 .call-me{
-	padding-right: 25px;
+	width: 185px !important;
+	padding-right: 0;
+	margin-right: 0 !important;
 }
 .news{
 	margin-top: 25px;
@@ -859,8 +879,10 @@ footer{
 	text-align: center;
 	padding-top: 20px;
 	background: url(../images/red-bg.jpg)no-repeat;
-
 }
+	.variant-block:hover{
+		background: url(../images/red-bg-h.jpg)no-repeat;
+	}
 	.variant .variant-block:last-child{
 		margin-right: 0;
 	}
